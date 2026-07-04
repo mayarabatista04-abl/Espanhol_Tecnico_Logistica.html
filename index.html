@@ -1,63 +1,382 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
- <head><script src="/_sdk/telemetry_sdk.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aulas de Espanhol - Técnico em Logística</title>
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet">
-  <style>
-        body { font-family: 'DM Sans', sans-serif; }
-        .heading-display { font-family: 'Playfair Display', serif; }
-    </style>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js" type="text/javascript"></script>
-  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
-  <script src="/_sdk/resizing_sdk.js" type="text/javascript"></script>
- </head>
- <body data-template-id="__page-root" class="min-h-screen">
-  <header class="relative overflow-hidden"><img data-template-id="hero-img" class="canva-image w-full h-72 md:h-96 object-cover" loading="lazy">
-   <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-    <div class="p-8 md:p-12 max-w-4xl">
-     <h1 data-template-id="site-title" class="canva-text heading-display text-4xl md:text-5xl text-white"></h1>
-     <p data-template-id="site-subtitle" class="canva-text mt-3 text-lg text-white/90"></p>
-    </div>
-   </div>
-  </header>
-  <main class="max-w-6xl mx-auto px-6 py-12">
-   <section>
-    <h2 data-template-id="section-title" class="canva-text heading-display text-2xl md:text-3xl mb-2"></h2>
-    <p data-template-id="section-desc" class="canva-text mb-8 text-gray-600"></p>
-    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-     <article data-template-id="card-1" class="canva-card rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-amber-500">
-      <h3 data-template-id="card-1-title" class="canva-text font-bold text-lg"></h3>
-      <p data-template-id="card-1-desc" class="canva-text mt-2 text-sm text-gray-600"></p><span data-template-id="card-1-tag" class="canva-tag inline-block mt-3 text-xs px-2 py-1 rounded-full"></span>
-     </article>
-     <article data-template-id="card-2" class="canva-card rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-emerald-500">
-      <h3 data-template-id="card-2-title" class="canva-text font-bold text-lg"></h3>
-      <p data-template-id="card-2-desc" class="canva-text mt-2 text-sm text-gray-600"></p><span data-template-id="card-2-tag" class="canva-tag inline-block mt-3 text-xs px-2 py-1 rounded-full"></span>
-     </article>
-     <article data-template-id="card-3" class="canva-card rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-sky-500">
-      <h3 data-template-id="card-3-title" class="canva-text font-bold text-lg"></h3>
-      <p data-template-id="card-3-desc" class="canva-text mt-2 text-sm text-gray-600"></p><span data-template-id="card-3-tag" class="canva-tag inline-block mt-3 text-xs px-2 py-1 rounded-full"></span>
-     </article>
-     <article data-template-id="card-4" class="canva-card rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-rose-500">
-      <h3 data-template-id="card-4-title" class="canva-text font-bold text-lg"></h3>
-      <p data-template-id="card-4-desc" class="canva-text mt-2 text-sm text-gray-600"></p><span data-template-id="card-4-tag" class="canva-tag inline-block mt-3 text-xs px-2 py-1 rounded-full"></span>
-     </article>
-     <article data-template-id="card-5" class="canva-card rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-violet-500">
-      <h3 data-template-id="card-5-title" class="canva-text font-bold text-lg"></h3>
-      <p data-template-id="card-5-desc" class="canva-text mt-2 text-sm text-gray-600"></p><span data-template-id="card-5-tag" class="canva-tag inline-block mt-3 text-xs px-2 py-1 rounded-full"></span>
-     </article>
-     <article data-template-id="card-6" class="canva-card rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow border-l-4 border-orange-500">
-      <h3 data-template-id="card-6-title" class="canva-text font-bold text-lg"></h3>
-      <p data-template-id="card-6-desc" class="canva-text mt-2 text-sm text-gray-600"></p><span data-template-id="card-6-tag" class="canva-tag inline-block mt-3 text-xs px-2 py-1 rounded-full"></span>
-     </article>
-    </div>
-   </section>
-  </main>
-  <footer data-template-id="footer" class="canva-footer text-center py-8 mt-12">
-   <p data-template-id="footer-text" class="canva-text text-sm"></p>
-  </footer>
-  <script src="/_sdk/editing_sdk.js"></script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0f804e5a3dff16b',t:'MTc4MjA5NzM5OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biblioteca de Espanhol Técnico para Logística</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- MENU -->
+
+    <header>
+
+        <div class="container">
+
+            <h1>📚 Biblioteca de Espanhol Técnico</h1>
+
+            <nav>
+
+                <a href="#inicio">Início</a>
+                <a href="#biblioteca">Biblioteca</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- CAPA -->
+
+    <section class="banner" id="inicio">
+
+        <div class="container">
+
+            <h2>Espanhol Técnico para Logística</h2>
+
+            <p>
+
+                Materiais gratuitos para professores e estudantes
+                dos cursos técnicos em Logística.
+
+            </p>
+
+            <a href="#biblioteca" class="botaoPrincipal">
+
+                Entrar na Biblioteca
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- PESQUISA -->
+
+    <section class="pesquisa">
+
+        <div class="container">
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar aula...">
+
+        </div>
+
+    </section>
+
+    <!-- BIBLIOTECA -->
+
+    <section class="biblioteca" id="biblioteca">
+
+        <div class="container">
+
+            <h2>📘 Biblioteca de Aulas</h2>
+
+            <!-- Aula 01 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 01 – Espanhol Técnico em Logística</span>
+
+                <a href="https://docs.google.com/presentation/d/1MVLHDx4mw8l7asBU_Eu-5Xw_NUXayq2hkX9jn-Vzsuo/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 02 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 02 – Introdução ao Espanhol - Pronobres Personales</span>
+
+                <a href="https://docs.google.com/presentation/d/1LeguQbbTn9IxJpO9vFZhsNMTxDJ5f7J6kJPLZvj8oZ8/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 03 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 03 – Análise de Rótulos</span>
+
+                <a href="https://docs.google.com/presentation/d/1WskGr29ZKmK7ACSnFF4xM3xBK7amXwLEZP9V4hu8-2Q/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 04 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 04 – Variedade Linguística Latino-Americana</span>
+
+                <a href="https://docs.google.com/presentation/d/1IoIR9JZj7dteMDCBi-bk_S4gqSP-xfxPE_Kv_YtfFD0/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 05 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 05 – Verbos Regulares</span>
+
+                <a href="https://docs.google.com/presentation/d/1fQLipraz4mMngUYKQloHw6hiB-uR4lSsdFdXlzEONBY/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 06 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 06 – Pronomes Demonstrativos</span>
+
+                <a href="https://docs.google.com/presentation/d/1AVJBKhke-ATWtKmTHUxLh-jahYArygoc95ICpM1-gDw/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 07 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 07 – Perfil do Profissional de Logística</span>
+
+                <a href="https://docs.google.com/presentation/d/18i99tpL0WO-S1jI2SbD9Au1xD0uirWRgdz7VLOk9prg/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 08 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 08 – E-mail Profissional</span>
+
+                <a href="https://docs.google.com/presentation/d/1NUtzwinNRN9zJiW9cpcNowgqbvpzYOMNMLeQyJ5eoGM/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 09 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 09 - La Revolución del contenedor</span>
+
+                <a href="https://docs.google.com/presentation/d/1IlGN3_n8xXS9WWSKlVadL6cJNXjPO1bQq_gv0QGykz8/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 10 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 10 – ¿Qué es la Logística?</span>
+
+                <a href="https://docs.google.com/presentation/d/1hi5-xAnjb9dBZ26v1QMSujh-fOIGw4dvEHyun8G2QPI/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 11 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 11 – Vaga de Emprego</span>
+
+                <a href="https://docs.google.com/presentation/d/1haqL9k2z5cOcqdpvPPXN2kTrpeSIzjoPwn9tzy_t7b8/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 12 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 12 – Texto de Opinião</span>
+
+                <a href="https://docs.google.com/presentation/d/1GEXClJYqRdsJSsjZH2NIeBVXkENesOELteb9l7qls4k/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 13 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 13 – Notícias e Sociedade</span>
+
+                <a href="https://docs.google.com/presentation/d/1ULSsh0ViQuzr-iMzIn8YIRMzuDpbu_qmUKd4Hkw6DE8/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aula 14 -->
+
+            <div class="aula">
+
+                <span>📘 Aula 14 – Crônica</span>
+
+                <a href="https://docs.google.com/presentation/d/1aXxoMJENXub3xfVTv988NU8Du4rHTTBXQaShUMZydlU/edit?usp=drivesdk" target="_blank">
+
+                    Abrir
+
+                </a>
+
+            </div>
+
+            <!-- Aulas futuras -->
+
+            <div class="aula">
+
+                <span>📘 Aula 15 - Los numerales en Logistica</span>
+
+                <a href="https://docs.google.com/presentation/d/11TdNX0w70GU5t4PLlQ_xAnUJza-URMh-8McvpBv1cdg/edit?usp=drivesdk">
+                  
+                  Abrir
+                  
+                  </a>
+                  
+            </div>
+
+            <div class="aula">
+              
+                <span>📘 Aula 16 - Vocabulário y sus diferencias entre países hispánicos</span>
+                
+                <a href="https://docs.google.com/presentation/d/1JR5RkvuZh6LneeXuANhmvNGTwqIfqqHtZN3lfGWPKXw/edit?usp=drivesdk">
+                  
+                  Abrir
+                  
+                  </a>
+                  
+            </div>
+
+            <div class="aula">
+                <span>📘 Aula 17 - La cultura hispánica en la Logística</span>
+                
+                <a href="https://docs.google.com/presentation/d/1jMxlEu2iD1aKGrsBM5-X7yXDSguhKdQS5aCTGC9HchY/edit?usp=drivesdk">
+                  
+                  Abrir
+                  
+                  </a>
+                  
+            </div>
+
+            <div class="aula">
+                <span>📘 Aula 18 - Las Fiestas Mexicanas</span>
+                <a href="https://docs.google.com/presentation/d/1LpDS1-l9sfj_yoXE0wtz2p8O5dl1QvB2mJ8lVILhO-s/edit?usp=drivesdk">Abrir</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section class="sobre" id="sobre">
+
+        <div class="container">
+
+            <h2>Sobre o Projeto</h2>
+
+            <p>
+
+                Esta biblioteca reúne os slides utilizados na disciplina
+                de Espanhol Técnico para Logística, produzidos para auxiliar
+                professores e estudantes de cursos técnicos.
+
+            </p>
+
+        </div>
+
+
+        <!-- SOBRE A AUTORA -->
+
+<section id="autora" class="autora">
+    <h2>Sobre a Autora</h2>
+
+    <p>
+        Professora de Língua Espanhola e Língua Portuguesa, apaixonada por educação,
+        tecnologia e pela criação de materiais didáticos para o ensino técnico.
+        Este site foi desenvolvido para compartilhar gratuitamente slides e recursos
+        pedagógicos que possam auxiliar professores em suas aulas.
+    </p>
+
+    <a href="https://drive.google.com/file/d/1d4RgbLvXXHTwUfOU0aWBZYPIoLCQMtHY/view?usp=drivesdk" class="btn-curriculo">
+        📄 Ver Currículo
+    </a>
+</section>
+
+    </section>
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+
+© 2026 • Biblioteca de Espanhol Técnico para Logística
+
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
 </html>
